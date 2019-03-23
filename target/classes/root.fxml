@@ -16,7 +16,7 @@
 <?import javafx.scene.layout.RowConstraints?>
 <?import javafx.scene.layout.VBox?>
 
-<VBox prefHeight="400.0" prefWidth="640.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1">
+<VBox fx:controller="pl.sda.AddressBookFX_LP.controller.RootViewController" prefHeight="400.0" prefWidth="640.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1">
   <children>
     <MenuBar VBox.vgrow="NEVER">
       <menus>
@@ -63,10 +63,10 @@
               <items>
                 <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0">
                      <children>
-                        <TableView layoutX="3.0" prefHeight="373.0" prefWidth="187.0">
+                        <TableView fx:id="personTableView" layoutX="3.0" prefHeight="373.0" prefWidth="187.0">
                           <columns>
-                            <TableColumn prefWidth="92.0" text="Name" />
-                            <TableColumn prefWidth="96.0" text="Lastname" />
+                            <TableColumn fx:id="nameCol" prefWidth="92.0" text="Name" />
+                            <TableColumn fx:id="lastnameCol" prefWidth="96.0" text="Lastname" />
                           </columns>
                            <columnResizePolicy>
                               <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
@@ -96,20 +96,20 @@
                               <Label text="Postal Code" GridPane.rowIndex="3" />
                               <Label text="Telephone" GridPane.rowIndex="4" />
                               <Label text="City" GridPane.rowIndex="5" />
-                              <Label GridPane.columnIndex="1" />
-                              <Label GridPane.columnIndex="1" GridPane.rowIndex="1" />
-                              <Label GridPane.columnIndex="1" GridPane.rowIndex="2" />
-                              <Label GridPane.columnIndex="1" GridPane.rowIndex="3" />
-                              <Label GridPane.columnIndex="1" GridPane.rowIndex="4" />
-                              <Label GridPane.columnIndex="1" GridPane.rowIndex="5" />
+                              <Label fx:id="labName" GridPane.columnIndex="1" />
+                              <Label fx:id="labLastname" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+                              <Label fx:id="labAddress" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+                              <Label fx:id="labPostalcode" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+                              <Label fx:id="labTelephone" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+                              <Label fx:id="labCity" GridPane.columnIndex="1" GridPane.rowIndex="5" />
                            </children>
                         </GridPane>
-                        <ButtonBar layoutX="11.0" layoutY="312.0" prefHeight="40.0" prefWidth="421.0">
+                        <ButtonBar fx:id="butView" layoutX="11.0" layoutY="312.0" prefHeight="40.0" prefWidth="421.0">
                           <buttons>
-                            <Button mnemonicParsing="false" text="New Person" />
-                              <Button mnemonicParsing="false" text="Edit" />
-                              <Button mnemonicParsing="false" text="Delete" />
-                              <Button mnemonicParsing="false" text="Save" />
+                            <Button fx:id="butNP" mnemonicParsing="false" text="New Person" />
+                              <Button fx:id="butEdit" mnemonicParsing="false" text="Edit" />
+                              <Button fx:id="butDel" mnemonicParsing="false" text="Delete" />
+                              <Button fx:id="butSave" mnemonicParsing="false" text="Save" />
                           </buttons>
                         </ButtonBar>
                      </children>
