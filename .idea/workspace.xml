@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c4015a48-91c0-4a39-80df-13634cf4a60c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/sda/AddressBookFX_LP/Model/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/sda/AddressBookFX_LP/controller/RootViewController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/sda/AddressBookFX_LP/Model/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/sda/AddressBookFX_LP/model/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/root.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/root.fxml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -38,12 +41,35 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/pl/sda/AddressBookFX_LP/Model/Person.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pl/sda/AddressBookFX_LP/controller/RootViewController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="24" column="29" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="29" />
+            <state relative-caret-position="544">
+              <caret line="35" column="27" selection-start-line="35" selection-start-column="27" selection-end-line="35" selection-end-column="27" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/root.fxml">
+          <provider editor-type-id="JavaFX-Scene-Builder" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="359">
+              <caret line="106" column="49" selection-start-line="106" selection-start-column="49" selection-end-line="106" selection-end-column="49" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pl/sda/AddressBookFX_LP/model/Person.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1190">
+              <caret line="76" column="47" selection-start-line="76" selection-start-column="47" selection-end-line="76" selection-end-column="47" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#892#893#0" expanded="true" />
                 <element signature="e#925#926#0" expanded="true" />
                 <element signature="e#969#970#0" expanded="true" />
                 <element signature="e#996#997#0" expanded="true" />
@@ -69,7 +95,6 @@
                 <element signature="e#1805#1806#0" expanded="true" />
                 <element signature="e#1841#1842#0" expanded="true" />
                 <element signature="e#1879#1880#0" expanded="true" />
-                <element signature="e#1928#1929#0" expanded="true" />
                 <element signature="e#1960#1961#0" expanded="true" />
                 <element signature="e#2010#2011#0" expanded="true" />
                 <element signature="e#2055#2056#0" expanded="true" />
@@ -103,6 +128,8 @@
         <option value="$PROJECT_DIR$/src/main/java/pl/sda/AddressBookFX_LP/Main.java" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/main/java/pl/sda/AddressBookFX_LP/Model/Person.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/root.fxml" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/sda/AddressBookFX_LP/controller/RootViewController.java" />
       </list>
     </option>
   </component>
@@ -184,17 +211,6 @@
               <item name="AddressBookFX_LP" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="pl" type="462c0819:PsiDirectoryNode" />
-              <item name="sda" type="462c0819:PsiDirectoryNode" />
-              <item name="AddressBookFX_LP" type="462c0819:PsiDirectoryNode" />
-              <item name="Model" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AddressBookFX_LP" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AddressBookFX_LP" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -209,7 +225,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553331824116" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553335299127" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -312,6 +328,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/javafx-src.zip!/javafx/beans/property/StringProperty.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="56" column="22" selection-start-line="56" selection-start-column="22" selection-end-line="56" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pl/sda/AddressBookFX_LP/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -324,19 +347,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/javafx-src.zip!/javafx/beans/property/StringProperty.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/sda/AddressBookFX_LP/model/Person.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="56" column="22" selection-start-line="56" selection-start-column="22" selection-end-line="56" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/sda/AddressBookFX_LP/Model/Person.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="24" column="29" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="29" />
+        <state relative-caret-position="1190">
+          <caret line="76" column="47" selection-start-line="76" selection-start-column="47" selection-end-line="76" selection-end-column="47" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#892#893#0" expanded="true" />
             <element signature="e#925#926#0" expanded="true" />
             <element signature="e#969#970#0" expanded="true" />
             <element signature="e#996#997#0" expanded="true" />
@@ -362,7 +379,6 @@
             <element signature="e#1805#1806#0" expanded="true" />
             <element signature="e#1841#1842#0" expanded="true" />
             <element signature="e#1879#1880#0" expanded="true" />
-            <element signature="e#1928#1929#0" expanded="true" />
             <element signature="e#1960#1961#0" expanded="true" />
             <element signature="e#2010#2011#0" expanded="true" />
             <element signature="e#2055#2056#0" expanded="true" />
@@ -372,6 +388,24 @@
             <element signature="e#2190#2191#0" expanded="true" />
             <element signature="e#2230#2231#0" expanded="true" />
             <element signature="e#2265#2266#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/root.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="359">
+          <caret line="106" column="49" selection-start-line="106" selection-start-column="49" selection-end-line="106" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/sda/AddressBookFX_LP/controller/RootViewController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="35" column="27" selection-start-line="35" selection-start-column="27" selection-end-line="35" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -1,4 +1,4 @@
-package pl.sda.AddressBookFX_LP.Model;
+package pl.sda.AddressBookFX_LP.model;
 
 import javafx.beans.property.SimpleStringProperty;
 import javafx.beans.property.StringProperty;
